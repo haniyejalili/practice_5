@@ -13,8 +13,8 @@ def diamond(n):
 
     for i in range(0,n):
         for j in range(n-i-1,n+i):
-            diamond[i][j]="*"
-            diamond[2*n-2-i][j]="*"
+            diamond[i][j]="♣️"
+            diamond[2*n-2-i][j]="♣️"
 
     for r in diamond:
         for c in r:
